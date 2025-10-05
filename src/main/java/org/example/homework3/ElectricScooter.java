@@ -30,5 +30,6 @@ public final class ElectricScooter extends Transport {
                 model, year, engine.getInfo(), batteryCapacity, maxRange);
     }
 
-
+    public double getBatteryCapacity() { return batteryCapacity; }
+    public int getMaxRange() { return maxRange; }
 }

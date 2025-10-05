@@ -1,5 +1,6 @@
 package org.example.homework3.enums;
 
+
     public enum FuelType {
         PETROL("Бензин"),
         ELECTRIC("Электричество"),

@@ -15,8 +15,9 @@ public class Engine {
         this.fuelType = fuelType;
     }
 
+    public EngineType getType() { return type; }
     public double getSpeed() { return speed; }
-
+    public FuelType getFuelType() { return fuelType; }
 
     public String getInfo() {
         return String.format("%s, макс. скорость: %.0f км/ч, топливо: %s",

@@ -18,13 +18,13 @@ public final class Airplane extends Transport {
     @Override
     public void stop() {
         brake();
-        System.out.printf("Самолет %s завершил полет", model);
+        System.out.printf("Самолет %s завершил полет\n", model);
     }
 
     @Override
     public String getInfo() {
         return String.format("Самолет %s (%d г.)" +
-                        "   Двигатель: %s" +
+                        "   Двигатель: %s\n" +
                         "   Размах крыльев: %.1f м, Макс. высота: %.0f м",
                 model, year, engine.getInfo(), wingspan, maxAltitude);
     }
