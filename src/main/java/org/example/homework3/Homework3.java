@@ -3,7 +3,6 @@ package org.example.homework3;
 import org.example.homework3.enums.EngineType;
 import org.example.homework3.enums.FuelType;
 import org.example.homework3.enums.TransportType;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;

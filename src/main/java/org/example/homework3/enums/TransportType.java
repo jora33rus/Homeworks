@@ -1,10 +1,10 @@
 package org.example.homework3.enums;
 
         public enum TransportType {
-            Car("Машина"),
-            Plain("Самолет"),
-            ElectroCar("Самокат"),
-            Bicycle("Велосипед");
+            CAR("Машина"),
+            PLAIN("Самолет"),
+            ELECTROSCUTER("Самокат"),
+            BICYCLE("Велосипед");
 
             private  final String description;
 

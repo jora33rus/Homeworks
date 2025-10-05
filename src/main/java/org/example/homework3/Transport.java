@@ -35,8 +35,9 @@ public abstract sealed class Transport
         return engine.getSpeed();
     }
 
-    // Геттеры
+
     public String getModel() { return model; }
+
     public int getYear() { return year; }
     public Engine getEngine() { return engine; }
     public double getCurrentSpeed() { return currentSpeed; }

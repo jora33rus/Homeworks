@@ -1,5 +1,6 @@
 package org.example.homework3;
 
+
 public final class Airplane extends Transport {
     private final double wingspan;
     private final double maxAltitude;
@@ -12,7 +13,7 @@ public final class Airplane extends Transport {
 
     @Override
     public void start() {
-        System.out.printf("Самолет %s запустил двигатели", model);
+        System.out.printf("Самолет %s запустил двигатели\n", model);
     }
 
     @Override
@@ -23,7 +24,7 @@ public final class Airplane extends Transport {
 
     @Override
     public String getInfo() {
-        return String.format("Самолет %s (%d г.)" +
+        return String.format("Самолет %s (%d г.)\n" +
                         "   Двигатель: %s\n" +
                         "   Размах крыльев: %.1f м, Макс. высота: %.0f м",
                 model, year, engine.getInfo(), wingspan, maxAltitude);
